@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Equipamentos RPG</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+       
+    </style>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Liste seus equipamentos de Sua Classe</h1>
+    <p>Coloque o Item de sua Classe ou o que você acabou de ganhar na Dungeon </p>
+    <form action="adicionar" method="post" id="itemRPG">
+        <label for="ItemInput">ITEM:</label>
+        <input type="text" id="ITEM" name="item" required>
+        <button type="button" onclick="AdicionarItem()">Adicionar Item</button>
+    </form>
+</body>
+</html>
